@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.app {
+  background-color: blue;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+  align-items: center;
+
+}
+
+.app.warm {
+  background-color: red;
+}
+.app.mid{
+  background-color:greenyellow; 
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 25px;
+  padding: 100px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -25px;
+
+  
+  transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus {
+  background-color: transparent;
+  border-bottom: 3px solid cyan;
+  color:white;
+  border-radius: 0px;
+  font-size: 25px;
+}
+.card{
+  width: 70% !important;
+  margin: auto !important;
+  border:none;
+}
+.card-title{
+  font-size: 60px !important;
+  font-family: cursive !important;
+}
+.card-text{
+  font-size: 40px !important;
+  text-align: center !important;
+}
+.date{
+  float: right ;
+  color: white !important;
+  text-align: right;
+  font-size: 30px;
+}
+.value{
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
